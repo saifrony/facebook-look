@@ -1,0 +1,168 @@
+
+body{
+	margin:0;
+	padding:0;
+	background:green;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header{
+	background:#4391f7;
+	overflow:hidden;
+	padding:8px 0px;
+	
+}
+header::after{
+		content:'';
+		clear:both;
+		display:block;
+	}
+	
+
+.container{
+	width:70%;
+	margin:auto;
+}
+.logo-area{
+	width:30%;
+	float:left;
+}
+.logo-area img{
+	width: 80%;
+    margin-top: 18px;
+}
+.login-area{
+	width:70%;
+	float:left;
+	color:white;
+}
+.login-area form{
+	float:right;
+	height: 80px;
+}
+.login-area label,
+.login-area form{
+	display:block;
+}
+.login-area label{
+	font-size:18px;
+	
+	margin-bottom:5px;
+	
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+	float:left;
+	margin-right:6px;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+	border :1px solid black;
+	font-size:16px;
+	font-weight:400px;
+
+}
+.login-area .password a{
+	text-decoration:none;
+	color:orange;
+	font-size:15px;
+	
+}
+.login-area .password a:hover{
+	text-decoration:underline;
+}
+.login-area input[type="submit"]{
+	
+color:black;
+	
+margin: 25px 5px;
+	
+padding: 3px 10px;
+}
+/* middle-part*/
+
+.signup-area::after{
+	content:'';
+	clear:both;
+	display:block;
+	
+}
+
+.left-area{
+	width:55%;
+	float:left;
+}
+.left-area p{
+	font-weight:600;
+	font-size:25px;
+	color:red;
+	
+	
+}
+.left-area img{
+	width:60%;
+}
+.right-area{
+	width:45%;
+	float:left;
+}
+.right-area h2{
+	margin:0;
+	font-size:33px;
+	color:orange
+}
+.right-area h4{
+	margin-top:5px;
+	margin-bottom:10px;
+	color:blue;
+	
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	width:100%;
+	border:1px solid black;
+	font-size:20px;
+	box-sizing:border-box;
+	border-radius:5px;
+	margin-bottom:6px;
+	
+
+	
+	
+}
+.full-name{
+	overflow:hidden;
+	width:100%
+	
+}
+.first-name{
+	width:50%;
+	float:left;
+	margin-right:2%;
+	
+	
+}
+.surname{
+	width:48%;
+	float:left;
+}
+.birth-date{
+	overflow:hidden;
+	float:left;
+}
+.birth-date select{float:left}
+.date-link{
+	overflow:hidden;
+	float:left;
+}
+.date-link a{
+	display:block;
+	
+}
+.birthday h4{
+	font-size:25px;
+	
+}
